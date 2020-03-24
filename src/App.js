@@ -13,6 +13,12 @@ const TimePosted = () => <span>3h ago</span>;
 
 const Button = () => <span>btn</span>;
 
+const InlineBlock = props => (
+	<div styles={{"diplay":"inlineBlock"}}>{props.children}</div>
+);
+	
+const Block = props => <div>{props.children}</div>;
+
 function App() {
   return (
     <div className="App">
