@@ -28,9 +28,9 @@ function App() {
 				</InlineBlock>
 				<InlineBlock>
 					<Block>
-						<Message />
 						<NameWithHandle />
 						<Time />
+						<Message />
 					</Block>
 					<Block>
 						<Button />
