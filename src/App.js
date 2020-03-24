@@ -1,10 +1,14 @@
 import React from 'react';
 import './App.css';
 
+const Tweet = props => <div>{props.children}</div>
+
 function App() {
   return (
     <div className="App">
-      Hello there!
+      <Tweet>
+				I am a tweet!
+			</Tweet>
     </div>
   );
 }
