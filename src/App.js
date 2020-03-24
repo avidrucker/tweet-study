@@ -14,10 +14,14 @@ const Time = () => <span>3h ago</span>;
 const Button = () => <span>btn</span>;
 
 const InlineBlock = props => (
-	<div styles={{"diplay":"inline-block"}}>{props.children}</div>
+	<div
+		className={props.className}
+		styles={{"diplay":"inline-block"}}>
+		{props.children}
+	</div>
 );
 	
-const Block = props => <div>{props.children}</div>;
+const Block = props => <div className={props.className}>{props.children}</div>;
 
 function App() {
   return (
